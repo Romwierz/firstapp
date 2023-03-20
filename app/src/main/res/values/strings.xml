@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BookWeb</string>
+
+    <string name="activity_main_label">BookWeb</string>
+    <string name="activity_info_label">O programie</string>
+
+    <string name="hello">Witaj</string>
+    <string name="read">Czytaj książki</string>
+    <string name="comment">Zostaw komentarz</string>
+    <string name="dalej">DALEJ</string>
+    <string name="message"></string>
+    <string name="log">LOGUJE DO KONSOLI</string>
+    <string name="toast">TOAST</string>
+    <string name="rewrite">PRZEPISZ WIADOMOŚĆ</string>
+    <string name="viewRewriteText">Przepisana wiadomość</string>
+
+    <string name="app">Aplikacja do komentowania książek</string>
+    <string name="version">Wersja 1.1</string>
+    <string name="authors">Autorzy:</string>
+    <string name="author">Michał Romsicki</string>
+    <string name="o_programie">O programie</string>
+
+</resources>
