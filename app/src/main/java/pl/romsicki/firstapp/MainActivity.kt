@@ -26,7 +26,9 @@ class MainActivity: AppCompatActivity() {
         // Handle item selection
         return when (item.itemId) {
             R.id.action_goto_activity -> {
-                setContentView(R.layout.activity_info)
+                val switchActivityIntent = Intent(this, Info::class.java)
+                startActivity(switchActivityIntent)
+
                 true
             }
             else -> super.onOptionsItemSelected(item)
