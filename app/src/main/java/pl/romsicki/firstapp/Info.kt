@@ -10,10 +10,10 @@ class Info : AppCompatActivity() {
 
         val actionbar = supportActionBar
         //set actionbar title
-        actionbar!!.title = "O programie"
+        actionbar!!.title = getString(R.string.o_programie)
         //set back button
         actionbar.setDisplayHomeAsUpEnabled(true)
-        actionbar.setDisplayHomeAsUpEnabled(true)
+        //actionbar.setDisplayHomeAsUpEnabled(true)
     }
 
     override fun onSupportNavigateUp(): Boolean {
