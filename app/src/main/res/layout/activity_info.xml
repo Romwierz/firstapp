@@ -7,44 +7,44 @@
     android:orientation="vertical"
     android:background="#FFFFFFFF">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="match_parent"
-        android:layout_height="49dp"
-        android:layout_marginTop="180dp"
-        app:srcCompat="@drawable/ic_baseline_book_24" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/activity_main_label"
-        android:textSize="40sp"
-        android:gravity="center_horizontal" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/app"
-        android:gravity="center_horizontal"/>
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/version"
-        android:gravity="center_horizontal"/>
-
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardElevation="8dp">
+        style="@style/zakladka">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                app:srcCompat="@drawable/ic_baseline_book_24" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/activity_main_label"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/app" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/version"
+                android:layout_marginBottom="30dp"/>
 
             <TextView
                 android:id="@+id/textView4"
@@ -59,4 +59,5 @@
                 android:text="@string/author" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
 </LinearLayout>

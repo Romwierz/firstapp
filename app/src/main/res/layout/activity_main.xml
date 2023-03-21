@@ -21,38 +21,38 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        app:cardElevation="8dp"
+        style="@style/zakladka"
         >
 
-        <LinearLayout
+        <TextView
+            android:id="@+id/read"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:text="@string/read"
+            app:drawableLeftCompat="@drawable/ic_baseline_menu_book_24" />
 
-            <TextView
-                android:id="@+id/read"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/ic_baseline_menu_book_24"
-                android:text="@string/read" />
+    </androidx.cardview.widget.CardView>
 
-            <TextView
-                android:id="@+id/comment"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginVertical="5dp"
-                android:drawableLeft="@drawable/ic_baseline_comment_24"
-                android:text="@string/comment" />
-        </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/zakladka">
+
+        <TextView
+            android:id="@+id/comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/comment"
+            app:drawableLeftCompat="@drawable/ic_baseline_comment_24" />
     </androidx.cardview.widget.CardView>
 
     <Button
         android:id="@+id/buttonDalej"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:text="@string/dalej"
+        android:layout_gravity="center_horizontal"
         android:layout_marginVertical="5dp"
-        android:layout_gravity="center_horizontal"/>
+        android:gravity="center_horizontal"
+        android:text="@string/dalej" />
 
 </LinearLayout>
