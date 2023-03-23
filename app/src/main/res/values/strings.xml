@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">BookWeb</string>
+    <string name="pam">Programowanie aplikacji mobilnych</string>
 
     <string name="activity_main_label">BookWeb</string>
     <string name="activity_info_label">O programie</string>
@@ -19,5 +20,14 @@
     <string name="authors">Autorzy:</string>
     <string name="author">Michał Romsicki</string>
     <string name="o_programie">O programie</string>
+
+    <string name="matematyka">Matematyka</string>
+    <string name="informatyka">Informatyka</string>
+    <string name="elektronika">Elektronika</string>
+    <string name="share">Udostępnij</string>
+    <string name="send">Wyślij</string>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
 
 </resources>

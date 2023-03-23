@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_goto_bookweb"
+            android:title="@string/activity_main_label"
+            android:icon="@drawable/ic_baseline_menu_book_24"/>
+        <item
+            android:id="@+id/action_goto_matematyka"
+            android:title="@string/matematyka"
+            android:icon="@drawable/baseline_calculate_24"/>
+        <item
+            android:id="@+id/action_goto_informatyka"
+            android:title="@string/informatyka"
+            android:icon="@drawable/baseline_computer_24"/>
+        <item
+            android:id="@+id/action_goto_elektronika"
+            android:title="@string/elektronika"
+            android:icon="@drawable/baseline_memory_24"/>
+    </group>
+        <item
+            android:id="@+id/action_share1"
+            android:title="@string/share">
+            <menu>
+                <item
+                    android:id="@+id/action_share2"
+                    android:title="@string/share"
+                    android:icon="@drawable/baseline_share_24"/>
+                <item
+                    android:id="@+id/action_send"
+                    android:title="@string/send"
+                    android:icon="@drawable/baseline_send_24"/>
+            </menu>
+        </item>
+</menu>
